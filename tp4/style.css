@@ -4,14 +4,13 @@ body {
     padding: 0;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
     justify-content: center;
+    background-color: #abbccc;
 }
 
 main {
     width: 50%;
     height: min-content;
-    margin-top: 50px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -48,6 +47,20 @@ main {
 button {
     border: none;
     padding: 10px;
+    width: 100px;
     border-radius: 5px;
+    color: white;
     cursor: pointer;
+}
+
+#btn-red {
+    background-color: red;
+}
+
+#btn-orange {
+    background-color: orange;
+}
+
+#btn-green {
+    background-color: green;
 }

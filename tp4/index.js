@@ -3,7 +3,7 @@ var orangeLight = document.getElementById("light-orange")
 var greenLight = document.getElementById("light-green")
 
 function switchLight(event) {
-    light = event.target.innerText;
+    activeLight = event.target.innerText;
     switch (light) {
         case "Red":
             redLight.style.backgroundColor = light;
