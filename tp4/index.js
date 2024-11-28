@@ -21,5 +21,6 @@ function switchLight(event) {
             orangeLight.style.backgroundColor = "";
             break;
         default:
+            console.log("default color")
     }
 }
