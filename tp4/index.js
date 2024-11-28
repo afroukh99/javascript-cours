@@ -4,19 +4,19 @@ var greenLight = document.getElementById("light-green")
 
 function switchLight(event) {
     activeLight = event.target.innerText;
-    switch (light) {
+    switch (activeLight) {
         case "Red":
-            redLight.style.backgroundColor = light;
+            redLight.style.backgroundColor = activeLight;
             greenLight.style.backgroundColor = "";
             orangeLight.style.backgroundColor = "";
             break;
         case "Orange":
-            orangeLight.style.backgroundColor = light;
+            orangeLight.style.backgroundColor = activeLight;
             greenLight.style.backgroundColor = "";
             redLight.style.backgroundColor = "";
             break;
         case "Green":
-            greenLight.style.backgroundColor = light;
+            greenLight.style.backgroundColor = activeLight;
             redLight.style.backgroundColor = "";
             orangeLight.style.backgroundColor = "";
             break;
